@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496CCDA61D7F43E900423910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CCDA51D7F43E900423910 /* AppDelegate.swift */; };
+		496CCDA81D7F43E900423910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CCDA71D7F43E900423910 /* ViewController.swift */; };
+		496CCDAA1D7F43E900423910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496CCDA91D7F43E900423910 /* Assets.xcassets */; };
+		496CCDAD1D7F43E900423910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496CCDAB1D7F43E900423910 /* Main.storyboard */; };
+		496CCDB81D7F43E900423910 /* InternetTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CCDB71D7F43E900423910 /* InternetTimeTests.swift */; };
+		496CCDC31D7F449B00423910 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CCDC21D7F449B00423910 /* TimeConversion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496CCDB41D7F43E900423910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496CCD9A1D7F43E900423910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496CCDA11D7F43E900423910;
+			remoteInfo = InternetTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496CCDA21D7F43E900423910 /* InternetTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496CCDA51D7F43E900423910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496CCDA71D7F43E900423910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		496CCDA91D7F43E900423910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496CCDAC1D7F43E900423910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496CCDAE1D7F43E900423910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CCDB31D7F43E900423910 /* InternetTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternetTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496CCDB71D7F43E900423910 /* InternetTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetTimeTests.swift; sourceTree = "<group>"; };
+		496CCDB91D7F43E900423910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496CCDC21D7F449B00423910 /* TimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496CCD9F1D7F43E900423910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CCDB01D7F43E900423910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496CCD991D7F43E900423910 = {
+			isa = PBXGroup;
+			children = (
+				496CCDA41D7F43E900423910 /* InternetTime */,
+				496CCDB61D7F43E900423910 /* InternetTimeTests */,
+				496CCDA31D7F43E900423910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496CCDA31D7F43E900423910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496CCDA21D7F43E900423910 /* InternetTime.app */,
+				496CCDB31D7F43E900423910 /* InternetTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496CCDA41D7F43E900423910 /* InternetTime */ = {
+			isa = PBXGroup;
+			children = (
+				496CCDA51D7F43E900423910 /* AppDelegate.swift */,
+				496CCDA71D7F43E900423910 /* ViewController.swift */,
+				496CCDA91D7F43E900423910 /* Assets.xcassets */,
+				496CCDAB1D7F43E900423910 /* Main.storyboard */,
+				496CCDAE1D7F43E900423910 /* Info.plist */,
+				496CCDC21D7F449B00423910 /* TimeConversion.swift */,
+			);
+			path = InternetTime;
+			sourceTree = "<group>";
+		};
+		496CCDB61D7F43E900423910 /* InternetTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				496CCDB71D7F43E900423910 /* InternetTimeTests.swift */,
+				496CCDB91D7F43E900423910 /* Info.plist */,
+			);
+			path = InternetTimeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496CCDA11D7F43E900423910 /* InternetTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496CCDBC1D7F43E900423910 /* Build configuration list for PBXNativeTarget "InternetTime" */;
+			buildPhases = (
+				496CCD9E1D7F43E900423910 /* Sources */,
+				496CCD9F1D7F43E900423910 /* Frameworks */,
+				496CCDA01D7F43E900423910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetTime;
+			productName = InternetTime;
+			productReference = 496CCDA21D7F43E900423910 /* InternetTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496CCDB21D7F43E900423910 /* InternetTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496CCDBF1D7F43E900423910 /* Build configuration list for PBXNativeTarget "InternetTimeTests" */;
+			buildPhases = (
+				496CCDAF1D7F43E900423910 /* Sources */,
+				496CCDB01D7F43E900423910 /* Frameworks */,
+				496CCDB11D7F43E900423910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496CCDB51D7F43E900423910 /* PBXTargetDependency */,
+			);
+			name = InternetTimeTests;
+			productName = InternetTimeTests;
+			productReference = 496CCDB31D7F43E900423910 /* InternetTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496CCD9A1D7F43E900423910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sergio;
+				TargetAttributes = {
+					496CCDA11D7F43E900423910 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					496CCDB21D7F43E900423910 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 496CCDA11D7F43E900423910;
+					};
+				};
+			};
+			buildConfigurationList = 496CCD9D1D7F43E900423910 /* Build configuration list for PBXProject "InternetTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496CCD991D7F43E900423910;
+			productRefGroup = 496CCDA31D7F43E900423910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496CCDA11D7F43E900423910 /* InternetTime */,
+				496CCDB21D7F43E900423910 /* InternetTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496CCDA01D7F43E900423910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CCDAA1D7F43E900423910 /* Assets.xcassets in Resources */,
+				496CCDAD1D7F43E900423910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CCDB11D7F43E900423910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496CCD9E1D7F43E900423910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CCDC31D7F449B00423910 /* TimeConversion.swift in Sources */,
+				496CCDA81D7F43E900423910 /* ViewController.swift in Sources */,
+				496CCDA61D7F43E900423910 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496CCDAF1D7F43E900423910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496CCDB81D7F43E900423910 /* InternetTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496CCDB51D7F43E900423910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496CCDA11D7F43E900423910 /* InternetTime */;
+			targetProxy = 496CCDB41D7F43E900423910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496CCDAB1D7F43E900423910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496CCDAC1D7F43E900423910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496CCDBA1D7F43E900423910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		496CCDBB1D7F43E900423910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		496CCDBD1D7F43E900423910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InternetTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sruiz.InternetTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496CCDBE1D7F43E900423910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InternetTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sruiz.InternetTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496CCDC01D7F43E900423910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InternetTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sruiz.InternetTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InternetTime.app/Contents/MacOS/InternetTime";
+			};
+			name = Debug;
+		};
+		496CCDC11D7F43E900423910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InternetTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sruiz.InternetTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InternetTime.app/Contents/MacOS/InternetTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496CCD9D1D7F43E900423910 /* Build configuration list for PBXProject "InternetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CCDBA1D7F43E900423910 /* Debug */,
+				496CCDBB1D7F43E900423910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496CCDBC1D7F43E900423910 /* Build configuration list for PBXNativeTarget "InternetTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CCDBD1D7F43E900423910 /* Debug */,
+				496CCDBE1D7F43E900423910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496CCDBF1D7F43E900423910 /* Build configuration list for PBXNativeTarget "InternetTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496CCDC01D7F43E900423910 /* Debug */,
+				496CCDC11D7F43E900423910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496CCD9A1D7F43E900423910 /* Project object */;
+}
